@@ -1,12 +1,12 @@
 <!-- Terminal Console Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:071727,100:032541&height=200&section=header&text=ARIAN%20ESMALINASAB&fontSize=38&fontColor=00E5FF&fontAlignY=36&desc=Electrical%20Engineering%20Student%20%7C%20University%20of%20Tabriz%20%7C%20Developer&descSize=14&descColor=94A3B8&descAlignY=62" width="100%" alt="Arian Esmalinasab Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:071727,100:032541&height=200&section=header&text=ARIAN%20ESMALINASAB&fontSize=38&fontColor=00E5FF&fontAlignY=36&desc=Electrical%20Engineering%20Student%20%7C%20University%20of%20Tabriz%20%7C%20AI%20%26%20Systems%20Developer&descSize=14&descColor=94A3B8&descAlignY=62" width="100%" alt="Arian Esmalinasab Header" />
 </p>
 
 <!-- Live Telemetry Status -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&width=820&lines=%24+whoami%3A+Electrical+Engineering+Student+%40+University+of+Tabriz;%24+stack%3A+TypeScript+%7C+Python+%7C+MATLAB+%7C+Cloudflare+Workers+%7C+Docker;%24+research%3A+UAV+Autonomous+Precision+Landing+%7C+Control+Theory+%7C+AI+Agents." alt="Terminal Output" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2500&pause=1000&color=00E5FF&center=true&vCenter=true&width=840&lines=%24+whoami%3A+Electrical+Engineering+Student+%40+University+of+Tabriz;%24+core_stack%3A+C+%7C+TypeScript+%7C+Python+%7C+MATLAB+%7C+AI+%26+Machine+Learning;%24+research%3A+Autonomous+UAV+Landing+%7C+Control+Theory+%7C+AI+Agents." alt="Terminal Output" />
   </a>
 </p>
 
@@ -27,11 +27,11 @@
 
 ### 🏛️ Engineering Profile & Research Focus
 
-Electrical Engineering student at the **University of Tabriz**. Specialized in merging dynamic control theory and automation with modern systems programming and serverless architectures:
+Electrical Engineering student at the **University of Tabriz**. Specialized in merging dynamic control theory and automation with modern systems programming, embedded firmware in **C**, and **Artificial Intelligence / Machine Learning**:
 
-* **Control Theory & Robotics:** Researching autonomous UAV precision landing mechanisms using computer vision and **AI Agents**.
-* **Academic Courseware:** Developer of comprehensive instructional guides for **MATLAB Simulation**, **Linear Control Problem Solving**, and **Error Analysis**.
-* **Software Systems:** Building runtime layout engines, reverse-engineered desktop patches, and serverless utility APIs.
+* **Artificial Intelligence & Machine Learning:** Designing intelligent agents and computer vision models for autonomous UAV precision landing and intelligent decision-making.
+* **Control Theory & Academic Courseware:** Developer of comprehensive instructional guides for **MATLAB Simulation**, **Linear Control Problem Solving**, and **Experimental Error Analysis**.
+* **Embedded & Software Systems:** Developing bare-metal telemetry in **C**, serverless utility APIs, and reverse-engineered desktop runtime extensions.
 
 ---
 
@@ -41,7 +41,8 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 
 | Domain | Technologies & Environments |
 | :--- | :--- |
-| **Core Languages** | `TypeScript` `Python` `MATLAB` |
+| **Core Languages** | `C` `TypeScript` `Python` `MATLAB` |
+| **AI & Machine Learning** | `Artificial Intelligence (هوش مصنوعی)` `Machine Learning` `AI Agents` `ONNX Runtime` `OpenCV (Vision)` |
 | **Academic & Control** | `MATLAB / Simulink` `Linear Control Systems` `State-Space Modeling` `Error Analysis` |
 | **Cloud & Deployment** | `Cloudflare Workers (Wrangler)` `Docker` `Vercel` `Dokploy` |
 | **Frontend & UI Engine**| `HTML5` `CSS3` `DOM Internals / MutationObserver` `Electron ASAR Injection` |
@@ -51,7 +52,7 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 </div>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,python,matlab,cloudflare,docker,html,css,linux,git,vscode&theme=dark" alt="Technical Stack" />
+  <img src="https://skillicons.dev/icons?i=c,ts,python,matlab,cloudflare,docker,html,css,linux,git,vscode&theme=dark" alt="Technical Stack" />
 </p>
 
 ---
@@ -61,6 +62,7 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 | Repository / Project | Architecture & Problem Solved | Core Stack |
 | :--- | :--- | :--- |
 | **[antigravity-pro-rtl](https://github.com/arian13es/antigravity-pro-rtl)** | Zero-latency dynamic RTL layout engine using `requestAnimationFrame`-synced `MutationObserver` and native `.asar` binary repacking. | `TypeScript` `DOM APIs` `Electron` |
+| **[ESP32_SkyTracker](https://github.com/arian13es/ESP32_SkyTracker)** | Standalone air traffic radar fetching live ADS-B data from OpenSky Network, computing geodesic distances via Haversine logic, and rendering to TFT. | `C` `ESP32` `OpenSky API` `IoT` |
 | **[AC-Downloader-Pro](https://github.com/arian13es/AC-Downloader-Pro)** | Frame-exact standalone Adobe Connect parser; reconstructs vector slide events, audio, and video offline with millisecond precision. | `Python` `XML Parsing` `AV Pipelines` |
 | **[cline2api-workers](https://github.com/arian13es)** | Serverless edge API orchestrator and token management deployed on Cloudflare Workers infrastructure. | `Cloudflare Workers` `TypeScript` `Python` |
 | **[opencode-rtl](https://github.com/arian13es/opencode-rtl)** | High-performance UI injector and settings widget designed specifically for desktop coding platforms. | `TypeScript` `CSS AST` |
