@@ -1,0 +1,10 @@
+<svg width="900" height="40" viewBox="0 0 900 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <path d="M 0 20 C 180 35, 360 5, 540 25 C 720 40, 810 10, 900 20 L 900 40 L 0 40 Z" fill="url(#footerWave)"/>
+</svg>
