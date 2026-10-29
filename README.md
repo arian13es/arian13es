@@ -71,7 +71,6 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 | **[antigravity-pro-rtl](https://github.com/arian13es/antigravity-pro-rtl)** | Zero-latency dynamic RTL layout engine using `requestAnimationFrame`-synced `MutationObserver` and native `.asar` binary repacking. | `TypeScript` `DOM APIs` `Electron` |
 | **[ESP32_SkyTracker](https://github.com/arian13es/ESP32_SkyTracker)** | Standalone air traffic radar fetching live ADS-B data from OpenSky Network, computing geodesic distances via Haversine logic, and rendering to TFT. | `C` `ESP32` `OpenSky API` `IoT` |
 | **[AC-Downloader-Pro](https://github.com/arian13es/AC-Downloader-Pro)** | Frame-exact standalone Adobe Connect parser; reconstructs vector slide events, audio, and video offline with millisecond precision. | `Python` `XML Parsing` `AV Pipelines` |
-| **[cline2api-workers](https://github.com/arian13es)** | Serverless edge API orchestrator and token management deployed on Cloudflare Workers infrastructure. | `Cloudflare Workers` `TypeScript` `Python` |
 | **[opencode-rtl](https://github.com/arian13es/opencode-rtl)** | High-performance UI injector and settings widget designed specifically for desktop coding platforms. | `TypeScript` `CSS AST` |
 
 ---
