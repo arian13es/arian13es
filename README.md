@@ -89,5 +89,5 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:032541,100:0B0F19&height=30&section=footer" width="100%" alt="Footer" />
+  <img src="https://raw.githubusercontent.com/arian13es/arian13es/main/assets/footer.svg" width="100%" alt="Footer" />
 </p>
