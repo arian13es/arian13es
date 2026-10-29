@@ -1,32 +1,74 @@
-<svg width="850" height="180" viewBox="0 0 850 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="50%" stop-color="#071727" />
-      <stop offset="100%" stop-color="#032541" />
+    <!-- Background Gradient -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C15" />
+      <stop offset="50%" stop-color="#0B101D" />
+      <stop offset="100%" stop-color="#060911" />
     </linearGradient>
-    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Wave 1 (Deep Violet/Blue) -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.45" />
+    </linearGradient>
+
+    <!-- Wave 2 (Electric Cyan/Sky) -->
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.9" />
     </linearGradient>
+
+    <!-- Wave 3 (Ambient Highlight) -->
+    <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5A0" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Name Typography Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Accent Pill Gradient -->
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.06" />
+    </linearGradient>
+
+    <!-- Subtle Dot Matrix -->
+    <pattern id="matrix" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#38BDF8" fill-opacity="0.1" />
+    </pattern>
   </defs>
 
-  <!-- Background Card -->
-  <rect x="2" y="2" width="846" height="176" rx="10" fill="url(#bgGrad)" stroke="url(#strokeGrad)" stroke-width="1.5" />
+  <!-- Base Card -->
+  <rect width="900" height="230" rx="14" fill="url(#canvasBg)" />
+  <rect width="900" height="230" rx="14" fill="url(#matrix)" />
 
-  <!-- Corner Brackets -->
-  <path d="M 16 28 L 16 16 L 28 16" stroke="#00E5FF" stroke-width="2" fill="none" />
-  <path d="M 834 28 L 834 16 L 822 16" stroke="#00E5FF" stroke-width="2" fill="none" />
-  <path d="M 16 152 L 16 164 L 28 164" stroke="#00E5FF" stroke-width="2" fill="none" />
-  <path d="M 834 152 L 834 164 L 822 164" stroke="#00E5FF" stroke-width="2" fill="none" />
+  <!-- Fluid Flowing Waving Layers at Top -->
+  <path d="M 0 0 L 900 0 L 900 45 C 750 75, 600 20, 450 50 C 300 80, 150 25, 0 55 Z" fill="url(#waveGrad1)" />
+  <path d="M 0 0 L 900 0 L 900 30 C 780 55, 620 15, 460 40 C 310 65, 160 10, 0 35 Z" fill="url(#waveGrad3)" />
+  <path d="M 0 0 L 900 0 L 900 18 C 760 38, 640 8, 480 25 C 320 42, 160 6, 0 20 Z" fill="url(#waveGrad2)" />
 
-  <!-- Top System Tag -->
-  <text x="425" y="44" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', Roboto, monospace" font-size="11" font-weight="600" fill="#38BDF8" letter-spacing="3">CONTROL SYSTEMS &amp; AI AGENTS LAB</text>
+  <!-- Institutional Tag Badge -->
+  <g transform="translate(295, 62)">
+    <rect width="310" height="24" rx="12" fill="url(#pillBg)" stroke="#00E5FF" stroke-opacity="0.3" stroke-width="0.8" />
+    <circle cx="14" cy="12" r="3.5" fill="#00E5FF" />
+    <text x="162" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#7DD3FC" letter-spacing="2">UNIVERSITY OF TABRIZ • SYSTEMS &amp; AI</text>
+  </g>
 
-  <!-- Main Identity Header -->
-  <text x="425" y="94" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', Roboto, sans-serif" font-size="34" font-weight="800" fill="#00E5FF" letter-spacing="4">ARIAN ESMALINASAB</text>
+  <!-- Prominent Core Identity Header -->
+  <text x="450" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Fira Code', sans-serif" font-size="42" font-weight="800" fill="url(#textGrad)" letter-spacing="3">ARIAN ESMALINASAB</text>
 
-  <!-- Subtitle -->
-  <text x="425" y="132" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8" letter-spacing="1">Electrical Engineering Student | University of Tabriz | AI &amp; Systems Developer</text>
+  <!-- Crisp Modern Subtitle -->
+  <text x="450" y="174" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="500" fill="#94A3B8" letter-spacing="1">Electrical Engineering Student <tspan fill="#00E5FF" font-weight="700"> / </tspan> AI &amp; Machine Learning <tspan fill="#00E5FF" font-weight="700"> / </tspan> Systems Developer</text>
+
+  <!-- Bottom Accent Lightline -->
+  <rect x="150" y="228" width="600" height="2" rx="1" fill="#00E5FF" fill-opacity="0.4" />
 </svg>
