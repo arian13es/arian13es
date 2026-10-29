@@ -1,6 +1,6 @@
-<!-- Terminal Console Header -->
+<!-- Self-Hosted Standalone Header (Never breaks or rate-limits) -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0f19,50:071727,100:032541&height=200&section=header&text=ARIAN%20ESMALINASAB&fontSize=38&fontColor=00E5FF&fontAlignY=36&desc=Electrical%20Engineering%20Student%20%7C%20University%20of%20Tabriz%20%7C%20AI%20%26%20Systems%20Developer&descSize=14&descColor=94A3B8&descAlignY=62" width="100%" alt="Arian Esmalinasab Header" />
+  <img src="https://raw.githubusercontent.com/arian13es/arian13es/main/assets/header.svg" width="100%" alt="Arian Esmalinasab Header" />
 </p>
 
 <!-- Live Telemetry Status -->
@@ -37,22 +37,29 @@ Electrical Engineering student at the **University of Tabriz**. Specialized in m
 
 ### 💻 Verified Technical Stack
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-AI%20Agents-071727?style=flat-square&logo=probot&logoColor=00E5FF" alt="Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Deep%20Learning-071727?style=flat-square&logo=scikitlearn&logoColor=00E5FF" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Neural%20Networks-PyTorch%20%7C%20TF-071727?style=flat-square&logo=pytorch&logoColor=00E5FF" alt="Neural Networks" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-071727?style=flat-square&logo=opencv&logoColor=00E5FF" alt="Computer Vision" />
+</p>
+
 <div align="center">
 
 | Domain | Technologies & Environments |
 | :--- | :--- |
 | **Core Languages** | `C` `TypeScript` `Python` `MATLAB` |
-| **AI & Machine Learning** | `Artificial Intelligence (هوش مصنوعی)` `Machine Learning` `AI Agents` `ONNX Runtime` `OpenCV (Vision)` |
+| **AI & Machine Learning** | `Artificial Intelligence` `Machine Learning` `AI Agents` `PyTorch` `TensorFlow` `Scikit-Learn` `ONNX Runtime` |
 | **Academic & Control** | `MATLAB / Simulink` `Linear Control Systems` `State-Space Modeling` `Error Analysis` |
 | **Cloud & Deployment** | `Cloudflare Workers (Wrangler)` `Docker` `Vercel` `Dokploy` |
 | **Frontend & UI Engine**| `HTML5` `CSS3` `DOM Internals / MutationObserver` `Electron ASAR Injection` |
-| **Data & Media** | `OpenCV (Headless)` `ONNX Runtime` `XML Event Stream Processing` |
+| **Data & Computer Vision** | `OpenCV (Headless)` `ONNX Runtime` `XML Event Stream Processing` |
 | **Toolchain** | `Linux` `Git` `VSCode Core` `npm / pnpm` |
 
 </div>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,ts,python,matlab,cloudflare,docker,html,css,linux,git,vscode&theme=dark" alt="Technical Stack" />
+  <img src="https://skillicons.dev/icons?i=c,ts,python,matlab,pytorch,tensorflow,sklearn,opencv,cloudflare,docker,linux,git&theme=dark" alt="Technical Stack" />
 </p>
 
 ---
